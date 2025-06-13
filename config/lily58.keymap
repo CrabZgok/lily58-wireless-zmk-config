@@ -12,14 +12,7 @@
 #include <dt-bindings/zmk/pointing.h>
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        Active_PowerMenu {
-            bindings = <&mo 3>;
-            key-positions = <50 57>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
@@ -50,7 +43,7 @@
 &kp F1        &kp F2        &kp F3          &kp F4          &kp F5        &kp F6                                     &kp F7          &kp F8          &kp F9        &kp F10          &kp F11   &kp F12
 &trans        &trans        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW                            &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &mkp MB5  &trans
 &trans        &trans        &trans          &trans          &trans        &trans           &bt BT_PRV    &bt BT_NXT  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &mkp MB4  &mo 3
-                                            &trans          &trans        &trans           &trans        &mkp LCLK   &mkp RCLK       &trans          &trans
+                                            &trans          &trans        &trans           &trans        &mkp LCLK   &mkp RCLK       &trans          &mo 3
             >;
         };
 
@@ -60,7 +53,7 @@
 &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6                          &kp F7          &kp F8          &kp F8        &kp F10          &kp F11  &kp F12
 &trans  &trans  &trans  &trans  &trans  &trans                          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans   &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &kp MINUS    &kp EQUAL  &trans          &trans          &trans        &trans           &trans   &trans
-                        &trans  &trans  &trans  &trans       &trans     &trans          &trans          &trans
+                        &mo 3   &trans  &trans  &trans       &trans     &trans          &trans          &trans
             >;
         };
 
@@ -69,7 +62,7 @@
 &bt BT_CLR  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2      &bt BT_DISC 3  &bt BT_DISC 4                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans      &trans         &trans         &trans             &trans         &trans                           &trans  &trans  &trans  &trans  &trans  &trans
 &trans      &sys_reset     &bootloader    &ext_power EP_TOG  &soft_off      &trans                           &trans  &trans  &trans  &trans  &trans  &trans
-&trans      &trans         &trans         &trans             &trans         &trans         &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &trans         &trans         &trans             &trans         &trans         &trans    &trans  &trans  &kp P   &trans  &trans  &trans  &trans
                                           &trans             &trans         &trans         &trans    &trans  &trans  &trans  &trans
             >;
         };
