@@ -14,6 +14,15 @@
 / {
     combos { compatible = "zmk,combos"; };
 
+    macros {
+        Profile_MacOS: Profile_MacOS {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&tog 4 &bt BT_SEL 1>;
+            label = "PROFILE_MACOS";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -59,11 +68,21 @@
 
         Power_Menu_layer {
             bindings = <
-&bt BT_CLR  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2      &bt BT_DISC 3  &bt BT_DISC 4                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans      &trans         &trans         &trans             &trans         &trans                           &trans  &trans  &trans  &trans  &trans  &trans
-&trans      &sys_reset     &bootloader    &ext_power EP_TOG  &soft_off      &trans                           &trans  &trans  &trans  &trans  &trans  &trans
-&trans      &trans         &trans         &trans             &trans         &trans         &trans    &trans  &trans  &kp P   &trans  &trans  &trans  &trans
-                                          &trans             &trans         &trans         &trans    &trans  &trans  &trans  &trans
+&bt BT_CLR  &bt BT_DISC 0  &Profile_MacOS  &bt BT_DISC 2      &bt BT_DISC 3  &bt BT_DISC 4                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &trans         &trans          &trans             &trans         &trans                           &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &sys_reset     &bootloader     &ext_power EP_TOG  &soft_off      &trans                           &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &trans         &trans          &trans             &trans         &trans         &trans    &trans  &trans  &kp P   &trans  &trans  &trans  &trans
+                                           &trans             &trans         &trans         &trans    &trans  &trans  &trans  &trans
+            >;
+        };
+
+        MacOS_layper {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                          &trans         &trans         &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                          &trans         &trans         &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                          &trans         &trans         &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans        &trans    &trans  &trans         &trans         &trans  &trans  &trans  &trans
+                        &trans  &trans  &kp LEFT_GUI  &trans    &trans  &kp RIGHT_GUI  &kp RIGHT_ALT  &trans
             >;
         };
     };
