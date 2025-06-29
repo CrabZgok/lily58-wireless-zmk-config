@@ -18,21 +18,21 @@
         Profile_MacOS: Profile_MacOS {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 4 &bt BT_SEL 1>;
+            bindings = <&to 4 &bt BT_SEL 0>;
             label = "PROFILE_MACOS";
         };
 
         Profile_Linux: Profile_Linux {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 0 &bt BT_SEL 0>;
+            bindings = <&to 0 &bt BT_SEL 2>;
             label = "PROFILE_LINUX";
         };
 
         Profile_surface: Profile_Windows {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 0 &bt BT_SEL 4>;
+            bindings = <&to 0 &bt BT_SEL 1>;
             label = "PROFILE_WINDOWS";
         };
     };
