@@ -56,11 +56,11 @@
         Menu_Q9code_layer {
             display-name = "Mouse()";
             bindings = <
-&out OUT_TOG  &Profile_MacOS  &Profile_surface  &Profile_Linux  &bt BT_SEL 3  &bt BT_SEL 4                            &kp SCROLLLOCK        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS    &kp SLASH
-&bt BT_PRV    &trans          &kp UP_ARROW      &trans          &trans        &bt BT_NXT                              &kp UNDERSCORE        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_PLUS  &kp KP_MULTIPLY
-&trans        &kp LEFT        &kp DOWN          &kp RIGHT       &trans        &trans                                  &kp NON_US_BACKSLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL    &trans
-&trans        &trans          &trans            &trans          &trans        &trans        &bt BT_PRV    &bt BT_NXT  &kp PIPE              &trans        &kp NUMBER_0  &kp PERIOD    &trans       &kp ENTER
-                                                &trans          &trans        &trans        &trans        &trans      &mo 3                 &mkp RCLK     &trans
+&out OUT_TOG  &Profile_MacOS  &Profile_surface  &Profile_Linux  &bt BT_SEL 3  &bt BT_SEL 4                            &kp SCROLLLOCK        &kp KP_NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS    &kp SLASH
+&bt BT_PRV    &trans          &kp UP_ARROW      &trans          &trans        &bt BT_NXT                              &kp UNDERSCORE        &kp NUMBER_4     &kp NUMBER_5  &kp NUMBER_6  &kp KP_PLUS  &kp KP_MULTIPLY
+&trans        &kp LEFT        &kp DOWN          &kp RIGHT       &trans        &trans                                  &kp NON_US_BACKSLASH  &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL    &trans
+&trans        &trans          &trans            &trans          &trans        &trans        &bt BT_PRV    &bt BT_NXT  &kp PIPE              &trans           &kp NUMBER_0  &kp PERIOD    &trans       &kp ENTER
+                                                &trans          &trans        &trans        &trans        &trans      &mo 3                 &mkp RCLK        &trans
             >;
         };
 
