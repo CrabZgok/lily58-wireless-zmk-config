@@ -53,7 +53,7 @@
         };
 
         Menu_Q9code_layer {
-            display-name = "Mouse()";
+            display-name = "Q9code()";
             bindings = <
 &out OUT_TOG  &Profile_MacOS  &Profile_surface  &Profile_Linux  &bt BT_SEL 3  &bt BT_SEL 4                            &kp SCROLLLOCK        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS    &kp SLASH
 &bt BT_PRV    &trans          &kp UP_ARROW      &trans          &trans        &bt BT_NXT                              &kp UNDERSCORE        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS  &kp KP_MULTIPLY
