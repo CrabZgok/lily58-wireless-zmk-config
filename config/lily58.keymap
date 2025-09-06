@@ -55,10 +55,10 @@
         Menu_Q9code_layer {
             display-name = "Q9code()";
             bindings = <
-&out OUT_TOG  &Profile_MacOS  &Profile_surface  &Profile_Linux  &bt BT_SEL 3  &bt BT_SEL 4                            &kp SCROLLLOCK        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS  &kp KP_DIVIDE
-&bt BT_PRV    &trans          &kp UP_ARROW      &trans          &trans        &bt BT_NXT                              &kp UNDERSCORE        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS   &kp KP_MULTIPLY
-&trans        &kp LEFT        &kp DOWN          &kp RIGHT       &trans        &trans                                  &kp NON_US_BACKSLASH  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_EQUAL  &trans
-&trans        &trans          &trans            &trans          &trans        &trans        &bt BT_PRV    &bt BT_NXT  &kp PIPE              &kp KP_NUMBER_0  &kp KP_NUMBER_0  &kp KP_DOT       &trans        &kp ENTER
+&out OUT_TOG  &Profile_MacOS  &Profile_surface  &Profile_Linux  &bt BT_SEL 3  &bt BT_SEL 4                            &kp SCROLLLOCK        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_DIVIDE    &kp KP_MINUS
+&bt BT_PRV    &trans          &kp UP_ARROW      &trans          &trans        &bt BT_NXT                              &kp UNDERSCORE        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MULTIPLY  &kp KP_PLUS
+&trans        &kp LEFT        &kp DOWN          &kp RIGHT       &trans        &trans                                  &kp NON_US_BACKSLASH  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_EQUAL     &kp EQUAL
+&trans        &trans          &trans            &trans          &trans        &trans        &bt BT_PRV    &bt BT_NXT  &kp PIPE              &kp KP_NUMBER_0  &kp KP_NUMBER_0  &kp KP_DOT       &trans           &kp ENTER
                                                 &trans          &trans        &trans        &trans        &trans      &mo 3                 &trans           &trans
             >;
         };
@@ -68,7 +68,7 @@
             bindings = <
 &kp F1           &kp F2       &kp F3    &kp F4      &kp F5       &kp F6                                            &kp F7         &kp F8        &kp F9                &kp F10                &kp F11    &kp F12
 &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp CARET                                         &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS  &kp PLUS
-&kp GRAVE        &trans       &trans    &trans      &trans       &trans                                            &trans         &trans        &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans     &trans
+&kp GRAVE        &trans       &trans    &trans      &trans       &trans                                            &trans         &trans        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp UNDER  &kp EQUAL
 &kp TILDE        &trans       &trans    &trans      &trans       &trans     &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &trans         &trans        &kp LESS_THAN         &kp GREATER_THAN       &trans     &trans
                                         &trans      &trans       &mo 3      &trans              &trans             &trans         &trans        &trans
             >;
